@@ -1,3 +1,11 @@
+## Customization by plumer
+
+Simply move `.zshrc` (hidden) in this directory to home to activate oh-my-zsh.
+
+original readme below
+
+-------------------------------------------
+
 ![Oh My Zsh](https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png)
 
 
