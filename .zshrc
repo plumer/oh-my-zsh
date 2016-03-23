@@ -49,12 +49,12 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ubuntu)
+plugins=(git brew brew-cask)
 DEFAULT_USER=vocryan
 
 # User configuration
 
-  export PATH="/home/vocryan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+  export PATH="/home/vocryan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/Library/TeX/texbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -80,6 +80,9 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+alias vimr="open -a vimr"
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias zshconfig="vimr ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias plogin="~/.plogin"
+alias plogout="~/.plogout"
