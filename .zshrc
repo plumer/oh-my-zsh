@@ -50,7 +50,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git ubuntu)
-DEFAULT_USER=vocryan
+DEFAULT_USER=yu645
 
 # User configuration
 
