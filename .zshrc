@@ -51,10 +51,11 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git ubuntu)
 DEFAULT_USER=$(whoami)
+export EDITOR=vim
 
 # User configuration
 
-  export PATH="/home/vocryan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+  export PATH="/home/vocryan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/Library/TeX/texbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -80,6 +81,10 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+alias vimr="open -a vimr"
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias zshconfig="vimr ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias plogin="~/.plogin"
+alias plogout="~/.plogout"
+alias glgc="git log --graph --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %C(bold blue)<%an>%C(reset)'"
