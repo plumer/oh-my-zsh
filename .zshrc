@@ -5,7 +5,7 @@ export ZSH=~/github/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="pure"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ubuntu)
+plugins=(git ubuntu zsh-syntax-highlighting)
 DEFAULT_USER=$(whoami)
 export EDITOR=vim
 
@@ -88,3 +88,4 @@ alias zshconfig="vimr ~/.zshrc"
 alias plogin="~/.plogin"
 alias plogout="~/.plogout"
 alias glgc="git log --graph --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %C(bold blue)<%an>%C(reset)'"
+alias sublime="open -a Sublime\ Text"
