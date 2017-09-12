@@ -54,7 +54,7 @@ DEFAULT_USER=$(whoami)
 
 # User configuration
 
-  export PATH="/home/vocryan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/Library/TeX/texbin:/Users/vocryan/Qt/Qt5.6.1/5.6/clang_64/bin"
+  export PATH="/home/vocryan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/Library/TeX/texbin:/Users/vocryan/Qt/5.6.1/5.6/clang_64/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
