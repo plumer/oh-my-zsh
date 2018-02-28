@@ -54,8 +54,13 @@ DEFAULT_USER=$(whoami)
 
 # User configuration
 
+<<<<<<< HEAD
   export PATH="/home/vocryan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/Library/TeX/texbin:/Users/vocryan/Qt/5.9.1/clang_64/bin"
+=======
+  export PATH="/home/vocryan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/Library/TeX/texbin"
+>>>>>>> db13f37932a5766f28e572f8033ce131f6b44b46
 # export MANPATH="/usr/local/man:$MANPATH"
+  export PATH="$PATH:/home/vocryan/Qt5.9.1/5.9.1/gcc_64/bin:/home/vocryan/Qt5.9.1/Tools/QtCreator/bin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,4 +91,3 @@ alias zshconfig="$EDITOR ~/.zshrc"
 alias plogin="~/.plogin"
 alias plogout="~/.plogout"
 alias glgc="git log --graph --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %C(bold blue)<%an>%C(reset)'"
-
